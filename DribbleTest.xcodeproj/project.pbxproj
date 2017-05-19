@@ -15,6 +15,23 @@
 		E3CAD0FC1ECF174E008338C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CAD0FB1ECF174E008338C6 /* Assets.xcassets */; };
 		E3CAD0FF1ECF174E008338C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CAD0FD1ECF174E008338C6 /* LaunchScreen.storyboard */; };
 		E3CAD10A1ECF174F008338C6 /* DribbleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1091ECF174F008338C6 /* DribbleTestTests.swift */; };
+		E3CAD1161ECF192D008338C6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1151ECF192D008338C6 /* Constants.swift */; };
+		E3CAD1241ECF1A8B008338C6 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1231ECF1A8B008338C6 /* UITableViewExtension.swift */; };
+		E3CAD1261ECF1AAC008338C6 /* StringExtansions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1251ECF1AAC008338C6 /* StringExtansions.swift */; };
+		E3CAD1281ECF1AED008338C6 /* Shots.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1271ECF1AED008338C6 /* Shots.swift */; };
+		E3CAD12A1ECF1B0C008338C6 /* ShotsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1291ECF1B0C008338C6 /* ShotsDB.swift */; };
+		E3CAD12C1ECF1B26008338C6 /* ImagesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD12B1ECF1B26008338C6 /* ImagesData.swift */; };
+		E3CAD12E1ECF1B40008338C6 /* ImagesDataDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD12D1ECF1B40008338C6 /* ImagesDataDB.swift */; };
+		E3CAD1311ECF1B95008338C6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1301ECF1B95008338C6 /* DataManager.swift */; };
+		E3CAD1331ECF1BB2008338C6 /* ShotsDomainDBDataMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1321ECF1BB2008338C6 /* ShotsDomainDBDataMapper.swift */; };
+		E3CAD1351ECF1BE2008338C6 /* APIPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1341ECF1BE2008338C6 /* APIPath.swift */; };
+		E3CAD13A1ECF1C25008338C6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1391ECF1C25008338C6 /* NetworkManager.swift */; };
+		E3CAD13D1ECF1C77008338C6 /* ShotsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD13B1ECF1C77008338C6 /* ShotsCell.swift */; };
+		E3CAD1401ECF1CA8008338C6 /* ShotsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CAD13F1ECF1CA8008338C6 /* ShotsCell.xib */; };
+		E3CAD1421ECF1CDF008338C6 /* ShotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1411ECF1CDF008338C6 /* ShotsViewController.swift */; };
+		E3CAD1441ECF1CFB008338C6 /* ShotsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CAD1431ECF1CFB008338C6 /* ShotsViewController.xib */; };
+		E3CAD1461ECF1D3E008338C6 /* ShotsViewControllerVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1451ECF1D3E008338C6 /* ShotsViewControllerVM.swift */; };
+		E3CAD1491ECF1D95008338C6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1481ECF1D95008338C6 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +60,23 @@
 		E3CAD1051ECF174F008338C6 /* DribbleTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DribbleTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3CAD1091ECF174F008338C6 /* DribbleTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DribbleTestTests.swift; sourceTree = "<group>"; };
 		E3CAD10B1ECF174F008338C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CAD1151ECF192D008338C6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E3CAD1231ECF1A8B008338C6 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		E3CAD1251ECF1AAC008338C6 /* StringExtansions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtansions.swift; sourceTree = "<group>"; };
+		E3CAD1271ECF1AED008338C6 /* Shots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shots.swift; sourceTree = "<group>"; };
+		E3CAD1291ECF1B0C008338C6 /* ShotsDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShotsDB.swift; path = ../ShotsDB.swift; sourceTree = "<group>"; };
+		E3CAD12B1ECF1B26008338C6 /* ImagesData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesData.swift; sourceTree = "<group>"; };
+		E3CAD12D1ECF1B40008338C6 /* ImagesDataDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagesDataDB.swift; path = ../ImagesDataDB.swift; sourceTree = "<group>"; };
+		E3CAD1301ECF1B95008338C6 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E3CAD1321ECF1BB2008338C6 /* ShotsDomainDBDataMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotsDomainDBDataMapper.swift; sourceTree = "<group>"; };
+		E3CAD1341ECF1BE2008338C6 /* APIPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIPath.swift; sourceTree = "<group>"; };
+		E3CAD1391ECF1C25008338C6 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E3CAD13B1ECF1C77008338C6 /* ShotsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotsCell.swift; sourceTree = "<group>"; };
+		E3CAD13F1ECF1CA8008338C6 /* ShotsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShotsCell.xib; sourceTree = "<group>"; };
+		E3CAD1411ECF1CDF008338C6 /* ShotsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotsViewController.swift; sourceTree = "<group>"; };
+		E3CAD1431ECF1CFB008338C6 /* ShotsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShotsViewController.xib; sourceTree = "<group>"; };
+		E3CAD1451ECF1D3E008338C6 /* ShotsViewControllerVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShotsViewControllerVM.swift; sourceTree = "<group>"; };
+		E3CAD1481ECF1D95008338C6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		EA24B1C7241EC1D0A92FA50D /* Pods-DribbleTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbleTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DribbleTestTests/Pods-DribbleTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +143,11 @@
 		E3CAD0F31ECF174E008338C6 /* DribbleTest */ = {
 			isa = PBXGroup;
 			children = (
+				E3CAD1141ECF191D008338C6 /* Utils */,
+				E3CAD1221ECF1A0D008338C6 /* Extensions */,
+				E3CAD11D1ECF19A1008338C6 /* Models */,
+				E3CAD1171ECF19A1008338C6 /* Controllers */,
+				E3CAD11E1ECF19E7008338C6 /* Classes */,
 				E3CAD0F41ECF174E008338C6 /* AppDelegate.swift */,
 				E3CAD0F61ECF174E008338C6 /* ViewController.swift */,
 				E3CAD0F81ECF174E008338C6 /* Main.storyboard */,
@@ -126,6 +165,147 @@
 				E3CAD10B1ECF174F008338C6 /* Info.plist */,
 			);
 			path = DribbleTestTests;
+			sourceTree = "<group>";
+		};
+		E3CAD1141ECF191D008338C6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1151ECF192D008338C6 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E3CAD1171ECF19A1008338C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1181ECF19A1008338C6 /* Database */,
+				E3CAD11B1ECF19A1008338C6 /* Network */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E3CAD1181ECF19A1008338C6 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1191ECF19A1008338C6 /* Manager */,
+				E3CAD11A1ECF19A1008338C6 /* Mappers */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		E3CAD1191ECF19A1008338C6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1301ECF1B95008338C6 /* DataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E3CAD11A1ECF19A1008338C6 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1321ECF1BB2008338C6 /* ShotsDomainDBDataMapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		E3CAD11B1ECF19A1008338C6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1381ECF1C19008338C6 /* Manager */,
+				E3CAD11C1ECF19A1008338C6 /* APIPath */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E3CAD11C1ECF19A1008338C6 /* APIPath */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1341ECF1BE2008338C6 /* APIPath.swift */,
+			);
+			path = APIPath;
+			sourceTree = "<group>";
+		};
+		E3CAD11D1ECF19A1008338C6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD12F1ECF1B6E008338C6 /* DB */,
+				E3CAD1271ECF1AED008338C6 /* Shots.swift */,
+				E3CAD12B1ECF1B26008338C6 /* ImagesData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3CAD11E1ECF19E7008338C6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD11F1ECF19E7008338C6 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E3CAD11F1ECF19E7008338C6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1471ECF1D83008338C6 /* BaseViewController */,
+				E3CAD1201ECF19E7008338C6 /* ShotViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E3CAD1201ECF19E7008338C6 /* ShotViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1211ECF19E7008338C6 /* Cell */,
+				E3CAD1411ECF1CDF008338C6 /* ShotsViewController.swift */,
+				E3CAD1431ECF1CFB008338C6 /* ShotsViewController.xib */,
+				E3CAD1451ECF1D3E008338C6 /* ShotsViewControllerVM.swift */,
+			);
+			path = ShotViewController;
+			sourceTree = "<group>";
+		};
+		E3CAD1211ECF19E7008338C6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD13B1ECF1C77008338C6 /* ShotsCell.swift */,
+				E3CAD13F1ECF1CA8008338C6 /* ShotsCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E3CAD1221ECF1A0D008338C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1231ECF1A8B008338C6 /* UITableViewExtension.swift */,
+				E3CAD1251ECF1AAC008338C6 /* StringExtansions.swift */,
+			);
+			name = Extensions;
+			path = Extantsions;
+			sourceTree = "<group>";
+		};
+		E3CAD12F1ECF1B6E008338C6 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1291ECF1B0C008338C6 /* ShotsDB.swift */,
+				E3CAD12D1ECF1B40008338C6 /* ImagesDataDB.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		E3CAD1381ECF1C19008338C6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1391ECF1C25008338C6 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E3CAD1471ECF1D83008338C6 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1481ECF1D95008338C6 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +402,8 @@
 				E3CAD0FF1ECF174E008338C6 /* LaunchScreen.storyboard in Resources */,
 				E3CAD0FC1ECF174E008338C6 /* Assets.xcassets in Resources */,
 				E3CAD0FA1ECF174E008338C6 /* Main.storyboard in Resources */,
+				E3CAD1401ECF1CA8008338C6 /* ShotsCell.xib in Resources */,
+				E3CAD1441ECF1CFB008338C6 /* ShotsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +515,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3CAD0F71ECF174E008338C6 /* ViewController.swift in Sources */,
+				E3CAD1311ECF1B95008338C6 /* DataManager.swift in Sources */,
+				E3CAD1281ECF1AED008338C6 /* Shots.swift in Sources */,
+				E3CAD13A1ECF1C25008338C6 /* NetworkManager.swift in Sources */,
 				E3CAD0F51ECF174E008338C6 /* AppDelegate.swift in Sources */,
+				E3CAD1421ECF1CDF008338C6 /* ShotsViewController.swift in Sources */,
+				E3CAD13D1ECF1C77008338C6 /* ShotsCell.swift in Sources */,
+				E3CAD1491ECF1D95008338C6 /* BaseViewController.swift in Sources */,
+				E3CAD12C1ECF1B26008338C6 /* ImagesData.swift in Sources */,
+				E3CAD12E1ECF1B40008338C6 /* ImagesDataDB.swift in Sources */,
+				E3CAD1461ECF1D3E008338C6 /* ShotsViewControllerVM.swift in Sources */,
+				E3CAD1331ECF1BB2008338C6 /* ShotsDomainDBDataMapper.swift in Sources */,
+				E3CAD1351ECF1BE2008338C6 /* APIPath.swift in Sources */,
+				E3CAD1161ECF192D008338C6 /* Constants.swift in Sources */,
+				E3CAD1241ECF1A8B008338C6 /* UITableViewExtension.swift in Sources */,
+				E3CAD1261ECF1AAC008338C6 /* StringExtansions.swift in Sources */,
+				E3CAD12A1ECF1B0C008338C6 /* ShotsDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +671,7 @@
 				DEVELOPMENT_TEAM = MG69ZAJ875;
 				INFOPLIST_FILE = DribbleTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.app.DribbleTest;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dribbleTest.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -488,7 +685,7 @@
 				DEVELOPMENT_TEAM = MG69ZAJ875;
 				INFOPLIST_FILE = DribbleTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.app.DribbleTest;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dribbleTest.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -545,6 +742,7 @@
 				E3CAD1101ECF174F008338C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3CAD1111ECF174F008338C6 /* Build configuration list for PBXNativeTarget "DribbleTestTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +751,7 @@
 				E3CAD1131ECF174F008338C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
