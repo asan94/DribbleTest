@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BC95B6FBC577CF67CBD4E57 /* Pods_DribbleTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BFAA39F2A1869D4BE2F60B8 /* Pods_DribbleTest.framework */; };
+		41B109186735FCFA0982173E /* Pods_DribbleTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373C1347E9DB933803FC8629 /* Pods_DribbleTestTests.framework */; };
+		E3CAD0F51ECF174E008338C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD0F41ECF174E008338C6 /* AppDelegate.swift */; };
+		E3CAD0F71ECF174E008338C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD0F61ECF174E008338C6 /* ViewController.swift */; };
+		E3CAD0FA1ECF174E008338C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CAD0F81ECF174E008338C6 /* Main.storyboard */; };
+		E3CAD0FC1ECF174E008338C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CAD0FB1ECF174E008338C6 /* Assets.xcassets */; };
+		E3CAD0FF1ECF174E008338C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CAD0FD1ECF174E008338C6 /* LaunchScreen.storyboard */; };
+		E3CAD10A1ECF174F008338C6 /* DribbleTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CAD1091ECF174F008338C6 /* DribbleTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3CAD1061ECF174F008338C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3CAD0E91ECF174E008338C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3CAD0F01ECF174E008338C6;
+			remoteInfo = DribbleTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EA143317AA9A986C13C53ED /* Pods-DribbleTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbleTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DribbleTestTests/Pods-DribbleTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		27D95C671DE57C67DECE07A5 /* Pods-DribbleTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbleTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DribbleTest/Pods-DribbleTest.debug.xcconfig"; sourceTree = "<group>"; };
+		373C1347E9DB933803FC8629 /* Pods_DribbleTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DribbleTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFAA39F2A1869D4BE2F60B8 /* Pods_DribbleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DribbleTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBE88A38F529808F0F9AC90 /* Pods-DribbleTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbleTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DribbleTest/Pods-DribbleTest.release.xcconfig"; sourceTree = "<group>"; };
+		E3CAD0F11ECF174E008338C6 /* DribbleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DribbleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CAD0F41ECF174E008338C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3CAD0F61ECF174E008338C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3CAD0F91ECF174E008338C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3CAD0FB1ECF174E008338C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3CAD0FE1ECF174E008338C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3CAD1001ECF174E008338C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CAD1051ECF174F008338C6 /* DribbleTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DribbleTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CAD1091ECF174F008338C6 /* DribbleTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DribbleTestTests.swift; sourceTree = "<group>"; };
+		E3CAD10B1ECF174F008338C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA24B1C7241EC1D0A92FA50D /* Pods-DribbleTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DribbleTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DribbleTestTests/Pods-DribbleTestTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3CAD0EE1ECF174E008338C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC95B6FBC577CF67CBD4E57 /* Pods_DribbleTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CAD1021ECF174F008338C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41B109186735FCFA0982173E /* Pods_DribbleTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		216868AEB71ECD2D29ACF72B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27D95C671DE57C67DECE07A5 /* Pods-DribbleTest.debug.xcconfig */,
+				BBBE88A38F529808F0F9AC90 /* Pods-DribbleTest.release.xcconfig */,
+				1EA143317AA9A986C13C53ED /* Pods-DribbleTestTests.debug.xcconfig */,
+				EA24B1C7241EC1D0A92FA50D /* Pods-DribbleTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		555E4DE292721AC2700176C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BFAA39F2A1869D4BE2F60B8 /* Pods_DribbleTest.framework */,
+				373C1347E9DB933803FC8629 /* Pods_DribbleTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3CAD0E81ECF174E008338C6 = {
+			isa = PBXGroup;
+			children = (
+				E3CAD0F31ECF174E008338C6 /* DribbleTest */,
+				E3CAD1081ECF174F008338C6 /* DribbleTestTests */,
+				E3CAD0F21ECF174E008338C6 /* Products */,
+				216868AEB71ECD2D29ACF72B /* Pods */,
+				555E4DE292721AC2700176C2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E3CAD0F21ECF174E008338C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD0F11ECF174E008338C6 /* DribbleTest.app */,
+				E3CAD1051ECF174F008338C6 /* DribbleTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3CAD0F31ECF174E008338C6 /* DribbleTest */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD0F41ECF174E008338C6 /* AppDelegate.swift */,
+				E3CAD0F61ECF174E008338C6 /* ViewController.swift */,
+				E3CAD0F81ECF174E008338C6 /* Main.storyboard */,
+				E3CAD0FB1ECF174E008338C6 /* Assets.xcassets */,
+				E3CAD0FD1ECF174E008338C6 /* LaunchScreen.storyboard */,
+				E3CAD1001ECF174E008338C6 /* Info.plist */,
+			);
+			path = DribbleTest;
+			sourceTree = "<group>";
+		};
+		E3CAD1081ECF174F008338C6 /* DribbleTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3CAD1091ECF174F008338C6 /* DribbleTestTests.swift */,
+				E3CAD10B1ECF174F008338C6 /* Info.plist */,
+			);
+			path = DribbleTestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3CAD0F01ECF174E008338C6 /* DribbleTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CAD10E1ECF174F008338C6 /* Build configuration list for PBXNativeTarget "DribbleTest" */;
+			buildPhases = (
+				1AFA306786F24BD4BD583995 /* [CP] Check Pods Manifest.lock */,
+				E3CAD0ED1ECF174E008338C6 /* Sources */,
+				E3CAD0EE1ECF174E008338C6 /* Frameworks */,
+				E3CAD0EF1ECF174E008338C6 /* Resources */,
+				38D3FE49B13B2BE2E066589F /* [CP] Embed Pods Frameworks */,
+				22289A8CF9E4CEB0A544B474 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DribbleTest;
+			productName = DribbleTest;
+			productReference = E3CAD0F11ECF174E008338C6 /* DribbleTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3CAD1041ECF174F008338C6 /* DribbleTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CAD1111ECF174F008338C6 /* Build configuration list for PBXNativeTarget "DribbleTestTests" */;
+			buildPhases = (
+				5A4F844EEF65A50C9E323568 /* [CP] Check Pods Manifest.lock */,
+				E3CAD1011ECF174F008338C6 /* Sources */,
+				E3CAD1021ECF174F008338C6 /* Frameworks */,
+				E3CAD1031ECF174F008338C6 /* Resources */,
+				3700F3DFCE3CFB80FE48B07E /* [CP] Embed Pods Frameworks */,
+				191A2C91E79CD81BF5EE9C91 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3CAD1071ECF174F008338C6 /* PBXTargetDependency */,
+			);
+			name = DribbleTestTests;
+			productName = DribbleTestTests;
+			productReference = E3CAD1051ECF174F008338C6 /* DribbleTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3CAD0E91ECF174E008338C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Asan Ametov";
+				TargetAttributes = {
+					E3CAD0F01ECF174E008338C6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MG69ZAJ875;
+						ProvisioningStyle = Automatic;
+					};
+					E3CAD1041ECF174F008338C6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MG69ZAJ875;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E3CAD0F01ECF174E008338C6;
+					};
+				};
+			};
+			buildConfigurationList = E3CAD0EC1ECF174E008338C6 /* Build configuration list for PBXProject "DribbleTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3CAD0E81ECF174E008338C6;
+			productRefGroup = E3CAD0F21ECF174E008338C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CAD0F01ECF174E008338C6 /* DribbleTest */,
+				E3CAD1041ECF174F008338C6 /* DribbleTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3CAD0EF1ECF174E008338C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CAD0FF1ECF174E008338C6 /* LaunchScreen.storyboard in Resources */,
+				E3CAD0FC1ECF174E008338C6 /* Assets.xcassets in Resources */,
+				E3CAD0FA1ECF174E008338C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CAD1031ECF174F008338C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		191A2C91E79CD81BF5EE9C91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbleTestTests/Pods-DribbleTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AFA306786F24BD4BD583995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22289A8CF9E4CEB0A544B474 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbleTest/Pods-DribbleTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3700F3DFCE3CFB80FE48B07E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbleTestTests/Pods-DribbleTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D3FE49B13B2BE2E066589F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DribbleTest/Pods-DribbleTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A4F844EEF65A50C9E323568 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3CAD0ED1ECF174E008338C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CAD0F71ECF174E008338C6 /* ViewController.swift in Sources */,
+				E3CAD0F51ECF174E008338C6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CAD1011ECF174F008338C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CAD10A1ECF174F008338C6 /* DribbleTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3CAD1071ECF174F008338C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3CAD0F01ECF174E008338C6 /* DribbleTest */;
+			targetProxy = E3CAD1061ECF174F008338C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3CAD0F81ECF174E008338C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CAD0F91ECF174E008338C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3CAD0FD1ECF174E008338C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CAD0FE1ECF174E008338C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3CAD10C1ECF174F008338C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3CAD10D1ECF174F008338C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3CAD10F1ECF174F008338C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D95C671DE57C67DECE07A5 /* Pods-DribbleTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MG69ZAJ875;
+				INFOPLIST_FILE = DribbleTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.app.DribbleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E3CAD1101ECF174F008338C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBE88A38F529808F0F9AC90 /* Pods-DribbleTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MG69ZAJ875;
+				INFOPLIST_FILE = DribbleTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.app.DribbleTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E3CAD1121ECF174F008338C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA143317AA9A986C13C53ED /* Pods-DribbleTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MG69ZAJ875;
+				INFOPLIST_FILE = DribbleTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.app.DribbleTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DribbleTest.app/DribbleTest";
+			};
+			name = Debug;
+		};
+		E3CAD1131ECF174F008338C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA24B1C7241EC1D0A92FA50D /* Pods-DribbleTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MG69ZAJ875;
+				INFOPLIST_FILE = DribbleTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.app.DribbleTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DribbleTest.app/DribbleTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3CAD0EC1ECF174E008338C6 /* Build configuration list for PBXProject "DribbleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CAD10C1ECF174F008338C6 /* Debug */,
+				E3CAD10D1ECF174F008338C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CAD10E1ECF174F008338C6 /* Build configuration list for PBXNativeTarget "DribbleTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CAD10F1ECF174F008338C6 /* Debug */,
+				E3CAD1101ECF174F008338C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3CAD1111ECF174F008338C6 /* Build configuration list for PBXNativeTarget "DribbleTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CAD1121ECF174F008338C6 /* Debug */,
+				E3CAD1131ECF174F008338C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3CAD0E91ECF174E008338C6 /* Project object */;
+}
