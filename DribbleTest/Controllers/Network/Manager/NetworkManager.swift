@@ -21,6 +21,7 @@ class NetworkManager: NSObject {
             "Content-Type": "application/json",
             "Authorization": authValue
         ]
+        request.timeoutInterval = 15
         for (key, value) in headers {
             request.setValue(value, forHTTPHeaderField: key)
         }

@@ -19,8 +19,8 @@ class ShotsViewControllerVM: NSObject {
         let manager = NetworkManager()
         do {
             let request:URLRequest =  try manager.getURLRequest()
-            shots.removeAll()
             Alamofire.request(request).responseJSON() {json in
+                self.shots.removeAll()
                 guard json.error == nil else {
                     self.shots = self.dbManager.getShots()
                     NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constants.getShotsFailure), object: json.error)
@@ -41,7 +41,14 @@ class ShotsViewControllerVM: NSObject {
             }
         }
         catch _ {
-            
+            let userInfo: [AnyHashable : Any] =
+                [
+                    NSLocalizedDescriptionKey :  NSLocalizedString("Error", value: "Сервер недоступен", comment: "") ,
+                    NSLocalizedFailureReasonErrorKey : NSLocalizedString("Error", value: "Сервер недоступен", comment: "")
+            ]
+            let err = NSError(domain: "ru.dribbleTest.app", code: -20, userInfo: userInfo)
+            NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constants.getShotsFailure), object: err)
+
         }
     }
     func getShotsCount() -> Int {
