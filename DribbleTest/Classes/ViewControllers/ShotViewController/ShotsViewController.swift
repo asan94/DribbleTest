@@ -14,16 +14,16 @@ class ShotsViewController: BaseViewController, UITableViewDelegate, UITableViewD
     var refreshControl: UIRefreshControl!
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.registerCellNib(ShotsCell.self)
+        self.tableView.registerCellNib(ShotsCell.self)
         let offset: CGFloat = 20
-        tableView.rowHeight = UIScreen.main.bounds.height / 2 - offset
-        refreshControl = UIRefreshControl()
-        refreshControl.addTarget(self, action: #selector(refresh), for: UIControlEvents.valueChanged)
-        showHUD()
-        viewModel = ShotsViewControllerVM()
-        tableView.addSubview(refreshControl)
+        self.tableView.rowHeight = UIScreen.main.bounds.height / 2 - offset
+        self.refreshControl = UIRefreshControl()
+        self.refreshControl.addTarget(self, action: #selector(refresh), for: UIControlEvents.valueChanged)
+        self.showHUD()
+        self.viewModel = ShotsViewControllerVM()
+        self.tableView.addSubview(refreshControl)
         self.viewModel.getShotss()
-        refreshControl.beginRefreshing()
+        self.refreshControl.beginRefreshing()
         let nc = NotificationCenter.default
         nc.addObserver(forName:Notification.Name(rawValue:Constants.getShotsSuccess),
                        object:nil, queue:nil,
@@ -56,20 +56,20 @@ class ShotsViewController: BaseViewController, UITableViewDelegate, UITableViewD
     
     //Server notification
     func getShotsSuccess(notification:Notification) -> Void {
-        dismissHUD()
+        self.dismissHUD()
         if self.refreshControl.isRefreshing {
             self.refreshControl.endRefreshing()
         }
-        tableView.reloadData()
+        self.tableView.reloadData()
     }
     func getShotsFailure(notification:Notification) -> Void {
-        dismissHUD()
+        self.dismissHUD()
         if self.refreshControl.isRefreshing {
             self.refreshControl.endRefreshing()
         }
         tableView.reloadData()
         let error = notification.object
-        showWithError(error: error as! NSError)
+        self.showWithError(error: error as! NSError)
     }
     //Mark - UITableViewDataSource, UITableViewDelegate
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
