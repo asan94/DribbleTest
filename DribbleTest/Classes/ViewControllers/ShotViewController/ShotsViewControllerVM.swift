@@ -26,31 +26,38 @@ class ShotsViewControllerVM: NSObject {
                     NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constants.getShotsFailure), object: json.error)
                     return
                 }
-                if let jsonr = json.result.value {
-                    let jsonToMap: [[String: Any]] = (jsonr as? [[String:Any]])!
-                    for dic in jsonToMap {
-                        if let parsedObject = Mapper<Shots>(context: nil).map(JSON: dic) {
-                            if parsedObject.animated == false && self.shots.count < 50{
-                                self.shots.append(parsedObject)
-                            }
-                        }
-                    }
+                if (json.result.value != nil) {
+                    self.shots = self.getObjectWithJSONResult(jsonResult: json.result)
                     self.dbManager.saveShot(shots: self.shots)
                     NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constants.getShotsSuccess), object: nil)
                 }
             }
         }
         catch _ {
-            let userInfo: [AnyHashable : Any] =
-                [
-                    NSLocalizedDescriptionKey :  NSLocalizedString("Error", value: "Сервер недоступен", comment: "") ,
-                    NSLocalizedFailureReasonErrorKey : NSLocalizedString("Error", value: "Сервер недоступен", comment: "")
-            ]
-            let err = NSError(domain: "ru.dribbleTest.app", code: -20, userInfo: userInfo)
-            NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constants.getShotsFailure), object: err)
-
+            NotificationCenter.default.post(name: NSNotification.Name(rawValue: Constants.getShotsFailure), object: self.getRequestError())
         }
     }
+    private func getRequestError() -> NSError {
+        let userInfo: [AnyHashable : Any] = [NSLocalizedDescriptionKey : NSLocalizedString("Error", value: "Сервер недоступен", comment: "") ,NSLocalizedFailureReasonErrorKey : NSLocalizedString("Error", value: "Сервер недоступен", comment: "")
+            ]
+        let error = NSError(domain: "ru.dribbleTest.app", code: -20, userInfo: userInfo)
+        return error
+    }
+    private func getObjectWithJSONResult(jsonResult: Result<Any>) -> [Shots] {
+        var shotsArray = [Shots]()
+        if let jsonr = jsonResult.value {
+            let jsonToMap: [[String: Any]] = (jsonr as? [[String:Any]])!
+            for dic in jsonToMap {
+                if let parsedObject = Mapper<Shots>(context: nil).map(JSON: dic) {
+                    if parsedObject.animated == false && self.shots.count < 50{
+                        shotsArray.append(parsedObject)
+                    }
+                }
+            }
+        }
+        return shotsArray
+    }
+    
     func getShotsCount() -> Int {
         return shots.count
     }
