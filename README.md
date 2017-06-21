@@ -1,6 +1,8 @@
 # DribbleTest
 Make an application for viewing first 50 shots from https://dribbble.com/ using its API.
+
 Requirements​:
+
 			● Ignore animated shots.
 			● Use pictures with hidpi resolution, if such available.
 			● Add offline cache for shots: after restarting the app, a user should be able to see
